@@ -41,8 +41,6 @@ function renderCountryCard(data) {
   }
 
   if (data.length >= 10) {
-    Notify.info(
-      'There are too many matches found. Please enter a more specific name'
-    );
+    Notify.info('Too many matches found. Please enter a more specific name');
   }
 }
